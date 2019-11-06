@@ -57,8 +57,8 @@
     <target name="dist" description="generate the distribution">
         <buildnumber />
         <!-- Create the distribution directory -->
-        <mkdir dir="${dist}/lib2" />
+        <mkdir dir="lib2" />
         <!-- Put everything in ${build} into the MyApplication-${version}.${build.number}.jar -->
-        <jar destfile="${dist}/lib2/MyApplication.jar" />
+        <jar destfile="lib2/MyApplication.jar" />
     </target>
 </project>
