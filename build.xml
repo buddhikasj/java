@@ -58,7 +58,7 @@
         <buildnumber />
         <!-- Create the distribution directory -->
         <mkdir dir="lib2" />
-        <!-- Put everything in ${build} into the MyApplication-${version}.${build.number}.jar -->
-        <jar destfile="lib2/MyApplication.jar" />
+        <!-- Put everything in ${build} into the MyApplication-${version}.${build.number}.jar 
+        <jar destfile="lib2/MyApplication.jar" /> -->
     </target>
 </project>
